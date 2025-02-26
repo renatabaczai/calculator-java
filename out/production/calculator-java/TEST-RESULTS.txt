@@ -1,0 +1,19 @@
+Exemple de cazuri testate:
+
+4 + 5 = 9
+10 - 3 = 7
+7 * 3 = 21
+10 / 2 = 5
+
+4 + 5 * 2 = 14 (în loc de 18, deoarece multiplicarea se face înaintea adunării)
+10 + 2 * 3 = 16 (corect)
+(10 + 5) * 3 = 45 (parantezele schimbă ordinea operațiilor)
+
+10.5 + 2.3 = 12.8
+7.5 * 3 = 22.5
+Operații cu valori speciale (∞):
+
+10 / 0 = ∞ (verifică dacă se gestionează corect împărțirea la zero)
+
+4 + 5 * 2 - 3 = 11 (prioritatea operațiilor corectă)
+(10 + 5) * 2 / 5 = 6

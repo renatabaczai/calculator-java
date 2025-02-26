@@ -1,0 +1,27 @@
+Testarea pas cu pas
+
+Definirea scopului testarii
+1. Operatiile aritmetice de baza sa functioneze corect
+2. Sa se faca ordinea operatiilor
+3. Sa se respecte parantezele
+4. Gestionare erorilor de calcul
+
+Cazuri de test
+1. Expresii valide
+2. Expresii invalide
+
+1. Expresii valide
+a) Adunarea 5+3 = 8 - corect
+b) Scaderea 11-3 = 8 - corect
+c) Impartire 6/3 = 2 - corect
+d) Inmultire 3*2 = 6 - corect
+e) 5+5*3 = 20 sau 5+5*3-10 = 10 - corect - se respecta ordinea operailor
+
+
+2. Expresii invalide
+a) scaderea cu greseli de exprimare 3--3 = Error  - doua semne de scadere nu sunt valide
+b) operatie cu necunoscute b+5 = Error - nu putem aduna un text cu numar
+
+Observatii:
+a) impartirea la zero  5/0 = infinit -  nu putem imparti un numar la 0
+b) operatii cu paranteze (3+2*3)/2 sau (10+3)/3 = Error - programul nu respecta parantezele si nu executa corect calculul
